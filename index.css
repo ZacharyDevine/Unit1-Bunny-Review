@@ -20,26 +20,6 @@ nav a{
   align-items: center;
   border: 1px solid black;
   background-color: orchid;
-}
-
-main{
-  grid-row: 2/3;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-}
-
-main img{
-  grid-column: 1/2;
-  border-radius: 20px;
-  margin:auto;
-}
-
-main p{
-  grid-column: 2/3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 20px;
-  margin: 10%;
+  text-decoration: none;
+  color: black;
 }
